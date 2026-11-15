@@ -32,12 +32,6 @@ The main experiment uses **200 SciFact questions**. The table reports the margin
 | Qwen3.6-Plus | Off | 0.135 | 0.830 | 0.049 | 0.058 | 0.240 |
 | Qwen3.6-Plus | On | 0.279 | 0.500 | 0.006 | 0.011 | 0.170 |
 
-The CR counts and eligible denominators are:
-
-| Model | Reasoning Off | Reasoning On |
-|---|---:|---:|
-| DeepSeek-V4-Flash | 30/146 | 12/161 |
-| Qwen3.6-Plus | 8/163 | 1/172 |
 
 Enabling reasoning is associated with lower CR and LR in both models. PDR also decreases in both models. ASR increases numerically in both models, but the paired analysis finds a statistically significant increase only for Qwen3.6-Plus. For DeepSeek-V4-Flash, the paired ASR change is not statistically significant.
 
